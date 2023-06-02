@@ -69,15 +69,11 @@ body {
   /* visibility: hidden; */
   /* overflow-x: hidden; */
 }
-.more-themes::-webkit-scrollbar{
+.more-themes::-webkit-scrollbar {
   display: none;
 }
 ul {
- 
   height: 260px;
-  
- 
-  
 }
 .more-themes ul > li {
   list-style-type: none;
@@ -91,12 +87,11 @@ ul {
 .theme-consulting img {
   width: 300px;
   left: 160px;
- position: absolute;
+  position: absolute;
 
- left: 100%;
+  left: 100%;
 
   /* visibility: hidden; */
-  
 }
 /* themes css code [end] */
 /* switcher-center css code [start] */
@@ -210,7 +205,7 @@ ul {
   transition: all 0.25s ease;
 }
 @keyframes buy {
-  0%  {
+  0% {
     background: #7e3bd0;
   }
   33% {
@@ -272,87 +267,172 @@ ul {
 /* purchase css code [end] */
 /* Top-header css code [end] */
 
-
-
-
-.banner{
+.banner {
   background-image: url(Image/bg_banner_01.jpg);
-  background-position:  top ;
-    background-repeat: no-repeat ;
-    background-size: contain ;
-    width: 100%;
-   padding: 379px 0;
-   position: relative;
-   margin: 0 auto;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  padding: 379px 0;
+  position: relative;
+  margin: 0 auto;
 }
-.bottom-header{
-position: relative;
-display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    gap: 155px;
-    bottom: 365px;
+.bottom-header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 155px;
+  bottom: 365px;
 }
-.header-logo{
- 
+.header-logo {
 }
-.your-destination-right img{
+.your-destination-right img {
   position: absolute;
   top: 263px;
   right: 0;
   margin: 0 auto;
 }
-.header-navigation{
-display: flex;
-list-style-type: none;
-display: flex;
-list-style-type: none;
-flex-wrap: wrap;
-width: 540px;
-gap: 33px;
-padding: 0;
+.header-navigation {
+  display: flex;
+  list-style-type: none;
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  width: 540px;
+  gap: 33px;
+  padding: 0;
+  position: relative;
 }
-.Elements{
+.header-navigation li{
+  position: relative;
+  text-align: center;
+}
+.header-bar{
+ height: min-content;
+ /* transition: all ease ;
+  transition-duration: 3s;
+  transition-delay: 4s;
+  animation: header-bar ease .2s; */
+}
+/* @keyframes header-bar{
+  0%{
+transform: rotate(33deg);
+  }
+  100%{
+    transform: rotate(331deg);
+  }
+} */
+
+.header-bar:hover a{
+  transition: all 25s ease;
+}
+.header-bar:hover::after {
+  content: "";
+  display:block;
+  position: absolute;
+  /* height: 10px; */
+  color: var(--yellow);
+  width:100%;
+  border: 2px solid var(--yellow);
+  top: 25px;
+  /* transition: all ease-in-out ; */
+  transition: all .25s ease;
+  /* transition-duration: 3s; */
+  
+}
+.top-Elements:hover::after{
+    content: "";
+    display: block;
+    position: absolute;
+    /* height: 10px; */
+    color: var(--yellow);
+    width:100%;
+    border: 2px solid var(--yellow);
+    top: 25px;
+    transition: all ease-in-out ;
+    transition-duration: 3s;
+}
+.header-bar:hover a{
+  color: var(--yellow);
+}
+.top-Elements:hover>a{
+  color: var(--yellow);
+}
+.Elements {
   position: absolute;
   display: flex;
   width: max-content;
-  right: 12%;
-  top: 22%;
+  top: 37px;
+  left: -750px;
+  width: 1126px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.28);
+  background-color: #fff;
+  /* transition: all 0s ease; */
   list-style-type: none;
+  padding: 47px 71px 17px 0px;
+  z-index: 3;
+  height: max-content;
+  margin: 0;
+  justify-content: space-between;
+  align-items: stretch;
   visibility: hidden;
+  transition-delay: 1s;
 }
-.top-Elements:hover ul{
+.top-Elements:hover ul {
   visibility: visible;
-  
+  transition-delay: 1s;
 }
-.Elements ul{
+.Elements ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  transition-delay: 3s;
 }
-.header-links a{
+.elemenet {
+  border-left: 3px solid #23232314;
+  padding-left: 46px;
+}
+.elemenet-first {
+  border-left: 1px solid #23232300;
+}
+.elemenet ul {
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: max-content;
+  border-left: #232323;
+}
+.elemenet span {
+  display: block;
+  margin-bottom: 26px;
+}
+.elemenet ul li {
+  padding: 7px 0px;
+}
+.header-links a {
   text-decoration: none;
-  color:black;
+  color: black;
   font-weight: 600;
 }
-.call-number{
+.call-number {
   display: flex;
- 
 }
-.fa-phone{
+.fa-phone {
   background-color: var(--yellow);
   width: 45px;
   height: 45px;
-  
+
   border-radius: 50%;
   text-align: center;
 }
-.fa-phone::before{
+.fa-phone::before {
   line-height: 48px;
 }
-.call-number div{
+.call-number div {
   display: flex;
   flex-direction: column;
 }
