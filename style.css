@@ -1,0 +1,360 @@
+body {
+  margin: 0;
+  font-family: HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+:root {
+  --black: #232323;
+  --gray: #4f4f4f;
+  --White: #fff;
+  --green: #1bc744;
+  --yellow: #ffd201;
+  --laptopL: 1440px;
+  --laptop: 1024px;
+  --tablet: 768px;
+  --mobile: 375px;
+}
+
+/* header css code [start] */
+
+/* Top-header css code [start] */
+.Top-header {
+  background: var(--black);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px 8px 8px;
+  color: green;
+}
+
+.Top-header a {
+  color: var(--White);
+  text-decoration: none;
+  font-size: 13px;
+}
+/* envato-market css code [start] */
+.envato-market {
+  position: relative;
+
+  display: inline-block;
+
+  height: 18px;
+  width: 152px;
+}
+/* envato-market css code [end] */
+/* themes css code [start] */
+.themes {
+  border: 1px solid var(--gray);
+  line-height: 28px;
+  padding: 2px 11px 0 12px;
+  position: relative;
+  width: 210px;
+  height: 35px;
+  margin-top: 10px;
+  border-radius: 5px;
+  position: relative;
+}
+.themes i {
+  position: absolute;
+  right: 6px;
+  top: 12px;
+  width: 9px;
+}
+.more-themes {
+  background-color: #232323;
+  font-size: 12px;
+  /* list-style-type: none; */
+  /* visibility: hidden; */
+  /* overflow-x: hidden; */
+}
+.more-themes::-webkit-scrollbar{
+  display: none;
+}
+ul {
+ 
+  height: 260px;
+  
+ 
+  
+}
+.more-themes ul > li {
+  list-style-type: none;
+  position: relative;
+}
+/* .theme-consulting:hover img {
+  visibility: visible;
+  
+  
+} */
+.theme-consulting img {
+  width: 300px;
+  left: 160px;
+ position: absolute;
+
+ left: 100%;
+
+  /* visibility: hidden; */
+  
+}
+/* themes css code [end] */
+/* switcher-center css code [start] */
+.switcher-center {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  align-content: baseline;
+  flex-direction: row;
+  position: relative;
+  padding: 0px 46px;
+}
+/* Customiz css code [start] */
+.Customiz {
+  padding: 9px 56px;
+}
+.Customiz:hover {
+  background-color: #313030;
+  opacity: 1;
+}
+.free-quote {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  align-items: baseline;
+  justify-content: center;
+  line-height: 13px;
+  font-size: 13px;
+}
+.fa-gear {
+  position: absolute;
+  top: 14px;
+  left: 80px;
+  width: 15px;
+  height: 15px;
+  color: var(--green);
+  font-size: 14px;
+}
+.green {
+  color: var(--green);
+}
+/* Customiz css code [end] */
+/* switcher-link css code [start] */
+.switcher-link {
+  display: flex;
+  gap: 42px;
+  align-items: flex-end;
+}
+.switcher-link span {
+  color: #abb8c3;
+}
+.youtube {
+  padding: 0 0 0 45px;
+}
+.youtube:hover span {
+  color: var(--yellow);
+}
+.youtube:hover i {
+  color: var(--White);
+}
+.blog:hover i {
+  color: var(--White);
+}
+.blog:hover span {
+  color: var(--yellow);
+}
+.fa-wordpress {
+  color: #abb8c3;
+  font-size: 14px;
+  margin-right: 9px;
+  position: relative;
+  top: 2px;
+}
+.fa-youtube {
+  color: #abb8c3;
+  font-size: 14px;
+  margin-right: 9px;
+  position: relative;
+  top: 2px;
+}
+/* switcher-link css code [end] */
+/* switcher-center css code [end] */
+
+/* purchase css code [start] */
+.purchase {
+  display: flex;
+  position: relative;
+  right: 2px;
+  gap: 38px;
+}
+/* buy css code [start] */
+.buy {
+  width: 68px;
+
+  height: 34px;
+  margin-top: 1px;
+  padding: 0 30px;
+  line-height: 33px;
+  color: #fff;
+  font-size: 13px;
+  font-family: HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  background: #7e3bd0;
+  text-transform: uppercase !important;
+  border-radius: 3px;
+}
+.buy:hover {
+  animation: buy 6s ease infinite alternate;
+  transition: all 0.25s ease;
+}
+@keyframes buy {
+  0%  {
+    background: #7e3bd0;
+  }
+  33% {
+    background: #c73bd0;
+  }
+  66% {
+    background: #3bd0c9;
+  }
+  100% {
+    background: #7e3bd0;
+  }
+}
+/* buy css code [end] */
+/* remove css code [start] */
+.remove {
+  padding: 0 20px;
+
+  margin: 11px 0px 0 8px;
+
+  color: #999;
+
+  font-size: 13px;
+
+  text-shadow: none !important;
+  font-weight: 600;
+  opacity: 0.3;
+}
+.remove a {
+  padding: 23px 0;
+}
+.remove:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  opacity: 0.7;
+  border-left: 1px solid var(--gray);
+}
+
+@media (max-width: 1130px) {
+  .switcher-link {
+    display: none;
+  }
+}
+@media (max-width: 940px) {
+  .Customiz {
+    display: none;
+  }
+}
+@media (max-width: 760px) {
+  .remove {
+    display: none;
+  }
+}
+@media (max-width: 650px) {
+  .themes {
+    display: none;
+  }
+}
+/* remove css code [end] */
+/* purchase css code [end] */
+/* Top-header css code [end] */
+
+
+
+
+.banner{
+  background-image: url(Image/bg_banner_01.jpg);
+  background-position:  top ;
+    background-repeat: no-repeat ;
+    background-size: contain ;
+    width: 100%;
+   padding: 379px 0;
+   position: relative;
+   margin: 0 auto;
+}
+.bottom-header{
+position: relative;
+display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 155px;
+    bottom: 365px;
+}
+.header-logo{
+ 
+}
+.your-destination-right img{
+  position: absolute;
+  top: 263px;
+  right: 0;
+  margin: 0 auto;
+}
+.header-navigation{
+display: flex;
+list-style-type: none;
+display: flex;
+list-style-type: none;
+flex-wrap: wrap;
+width: 540px;
+gap: 33px;
+padding: 0;
+}
+.Elements{
+  position: absolute;
+  display: flex;
+  width: max-content;
+  right: 12%;
+  top: 22%;
+  list-style-type: none;
+  visibility: hidden;
+}
+.top-Elements:hover ul{
+  visibility: visible;
+  
+}
+.Elements ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  transition-delay: 3s;
+}
+.header-links a{
+  text-decoration: none;
+  color:black;
+  font-weight: 600;
+}
+.call-number{
+  display: flex;
+ 
+}
+.fa-phone{
+  background-color: var(--yellow);
+  width: 45px;
+  height: 45px;
+  
+  border-radius: 50%;
+  text-align: center;
+}
+.fa-phone::before{
+  line-height: 48px;
+}
+.call-number div{
+  display: flex;
+  flex-direction: column;
+}
+
+/* header css code [end] */
