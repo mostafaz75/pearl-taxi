@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* CONTAINER DRIVERS SAY START  */
+.container-drivers-say {
+  margin: 0 auto;
+  width: 1000px;
+}
+/* CONTAINER DRIVERS SAY END  */
+/* TITLE DRIVERS SAY START  */
+.title-drivers-say {
+  text-align: center;
+}
+.title-drivers-say h1 {
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+.title-drivers-say p {
+  font-size: 25px;
+  opacity: 0.6;
+}
+/* TITLE DRIVERS SAY END  */
+/* NEXT PART START */
+.next-part {
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.next-part div {
+  margin-left: 20px;
+}
+/* NEXT PART END */
+/* LINE START */
+.line {
+  margin-bottom: 25px;
+  display: grid;
+  grid-template-columns: reapeat(3, 1fr);
+}
+.line::before,
+.line::after {
+  width: 1px;
+  content: "";
+
+  height: 110px;
+  background-color: #ffd201;
+  display: block;
+  margin-bottom: -30px;
+}
+.line h1 {
+  color: #ffd201;
+  font-size: 55px;
+  margin-left: -10px;
+  line-height: 0px;
+}
+/* LINE END  */
+/* TEXT DRIVERS SAY P START  */
+.text-drivers-say p {
+  padding-bottom: 30px;
+  opacity: 0.7;
+}
+/* TEXT DRIVERS SAY P END  */
+/* TEXT RIVERS SAY I START */
+.text-drivers-say i {
+  margin-top: 70px;
+  padding-right: 5px;
+}
+/* TEXT RIVERS SAY I END */
