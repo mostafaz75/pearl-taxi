@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container-clients {
+  margin: 0 auto;
+  margin-bottom: 90px;
+}
+/* OUR CLIENT PIC START */
+.our-clients-pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.our-clients-pic img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(150%);
+  opacity: 0.5;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.our-clients-pic div:hover > img {
+  webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+.our-clients-pic div {
+  padding: 40px;
+}
+/* OUR CLIEINTS PIC END */
+/* OUR CLIENTS TITR START  */
+.our-clients-titr h1 {
+  text-align: center;
+  padding: 30px;
+}
+/* OUR CLIENTS TITR END */
+/* OUR CLIENTS INFO START  */
+.our-clients-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.our-clients-info div {
+  width: 400px;
+  padding-right: 100px;
+  margin-top: 25px;
+}
+.our-clients-info i {
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+/* OUR CLIENTS INFO END  */
+/* CHANGE FEEDBACK START */
+.change-feedback {
+  text-align: center;
+  margin-top: 20px;
+}
+/* CHANGE FEEDBACK END */
+/* CONTAINER FIRST RIDE START */
+.container-first-ride {
+  margin: 0 auto;
+}
+/* CONTAINER FIRST RIDE END */
+/* PIC TEXT FIRST RIDE START */
+.pic-text-first-ride {
+  background-image: url(images/pearl-taxi_03.jpg) !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  text-align: center;
+}
+.pic-text-first-ride {
+  font-family: "poppins";
+  color: white;
+}
+.pic-text-first-ride h1 {
+  font-weight: 400;
+  font-size: 40px;
+}
+.pic-text-first-ride h2 {
+  font-weight: 800;
+  font-size: 40px;
+}
+.pic-text-first-ride p {
+  margin: 0 auto;
+  width: 40%;
+}
+/* PIC TEXT FIRST RIDE END */
+/* CONTAINER FIRST RIDE START */
+.container-first-ride {
+  margin: 0 auto;
+  margin-bottom: 90px;
+}
+/* CONTAINER FIRST RIDE END */
+/* PIC TEXT FIRST RIDE START */
+.pic-text-first-ride {
+  background-image: url(images/pearl-taxi_03.jpg) !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  text-align: center;
+}
+.pic-text-first-ride {
+  font-family: "poppins";
+  color: white;
+}
+.pic-text-first-ride h1 {
+  font-weight: 400;
+  font-size: 40px;
+}
+.pic-text-first-ride h2 {
+  font-weight: 800;
+  font-size: 40px;
+}
+.pic-text-first-ride p {
+  margin: 0 auto;
+  width: 40%;
+}
+/* PIC TEXT FIRST RIDE END */
+/* PIC TEXT FIRST RIDE BUTTON START */
+.pic-text-first-ride button {
+  margin-top: 40px;
+  width: 180px;
+  height: 50px;
+  border-radius: 8px;
+  color: black;
+  background-color: #ffd201;
+  font-weight: 750;
+  transition: all 0.4s;
+}
+.pic-text-first-ride button:hover {
+  background-color: rgb(39, 37, 37);
+  color: #ffd201;
+  cursor: pointer;
+}
+/* PIC TEXT FIRST RIDE BUTTON END */
+/* CONTAINER DRIVERS SAY START  */
+.container-drivers-say {
+  margin: 0 auto;
+  width: 1000px;
+}
+/* CONTAINER DRIVERS SAY END  */
+/* TITLE DRIVERS SAY START  */
+.title-drivers-say {
+  text-align: center;
+}
+.title-drivers-say h1 {
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+.title-drivers-say p {
+  font-size: 25px;
+  opacity: 0.6;
+}
+/* TITLE DRIVERS SAY END  */
+/* NEXT PART START */
+.next-part {
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.next-part div {
+  margin-left: 20px;
+}
+/* NEXT PART END */
+/* LINE START */
+.line {
+  margin-bottom: 25px;
+  display: grid;
+  grid-template-columns: reapeat(3, 1fr);
+}
+.line::before,
+.line::after {
+  width: 1px;
+  content: "";
+
+  height: 110px;
+  background-color: #ffd201;
+  display: block;
+  margin-bottom: -30px;
+}
+.line h1 {
+  color: #ffd201;
+  font-size: 55px;
+  margin-left: -10px;
+  line-height: 0px;
+}
+/* LINE END  */
+/* TEXT DRIVERS SAY P START  */
+.text-drivers-say p {
+  padding-bottom: 30px;
+  opacity: 0.7;
+}
+/* TEXT DRIVERS SAY P END  */
+/* TEXT RIVERS SAY I START */
+.text-drivers-say i {
+  margin-top: 70px;
+  padding-right: 5px;
+}
+/* TEXT RIVERS SAY I END */
