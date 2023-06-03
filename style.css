@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
 }
 :root {
   --black: #232323;
@@ -311,54 +312,43 @@ ul {
 }
 .header-bar{
  height: min-content;
- /* transition: all ease ;
-  transition-duration: 3s;
-  transition-delay: 4s;
-  animation: header-bar ease .2s; */
+
 }
-/* @keyframes header-bar{
-  0%{
-transform: rotate(33deg);
-  }
-  100%{
-    transform: rotate(331deg);
-  }
-} */
+
 
 .header-bar:hover a{
-  transition: all 25s ease;
+  transition: all 300ms ease;
+}
+.header-bar a:hover{
+ color:var(--yellow);
 }
 .header-bar:hover::after {
   content: "";
   display:block;
   position: absolute;
-  /* height: 10px; */
+
   color: var(--yellow);
   width:100%;
   border: 2px solid var(--yellow);
-  top: 25px;
-  /* transition: all ease-in-out ; */
-  transition: all .25s ease;
-  /* transition-duration: 3s; */
-  
+  top: 20px;
+  transition-property: all;
+  animation: header-bar 500ms forwards  1 ease;
 }
-.top-Elements:hover::after{
-    content: "";
-    display: block;
-    position: absolute;
-    /* height: 10px; */
-    color: var(--yellow);
-    width:100%;
-    border: 2px solid var(--yellow);
-    top: 25px;
-    transition: all ease-in-out ;
-    transition-duration: 3s;
+@keyframes header-bar{
+0%{
+transform: translatey(1px)
 }
-.header-bar:hover a{
-  color: var(--yellow);
+100%{
+  transform: translatey(10px)scaley(1.7)
+}
+}
+.header-bar:hover{
+  transition: all 300ms ease;
+  transition-delay: 8s;
 }
 .top-Elements:hover>a{
   color: var(--yellow);
+  transition: all 300ms ease;
 }
 .Elements {
   position: absolute;
@@ -421,11 +411,26 @@ transform: rotate(33deg);
 .call-number {
   display: flex;
 }
-.fa-phone {
+.call-number a{
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: .4px;
+  transition: color .3s;
+  text-decoration: none;
+  color: var(--black);
+}
+.call-number:hover a{
+  color: var(--yellow);
+}
+.call-number:hover .fa-phone{
+  transform: scale(1.5);
+  transition: all .3s;
+}
+.phone-icon{
   background-color: var(--yellow);
   width: 45px;
   height: 45px;
-
   border-radius: 50%;
   text-align: center;
 }
