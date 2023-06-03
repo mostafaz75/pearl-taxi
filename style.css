@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* CONTAINER FIRST RIDE START */
+.container-first-ride {
+  margin: 0 auto;
+}
+/* CONTAINER FIRST RIDE END */
+/* PIC TEXT FIRST RIDE START */
+.pic-text-first-ride {
+  background-image: url(images/pearl-taxi_03.jpg) !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  text-align: center;
+}
+.pic-text-first-ride {
+  font-family: "poppins";
+  color: white;
+}
+.pic-text-first-ride h1 {
+  font-weight: 400;
+  font-size: 40px;
+}
+.pic-text-first-ride h2 {
+  font-weight: 800;
+  font-size: 40px;
+}
+.pic-text-first-ride p {
+  margin: 0 auto;
+  width: 40%;
+}
+/* PIC TEXT FIRST RIDE END */
