@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* CONTAINER ABOUT US START */
+.container-aboutus {
+  margin: 100px auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+/* CONTAINER ABOUT US END  */
+/* PIC ABOUT US START  */
+.pic-aboutus {
+  width: 500px;
+}
+/* PIC ABOUT US END  */
+/* TITR INFO ABOUT US START  */
+.titr-info-aboutus {
+  width: 400px;
+  margin-left: 200px;
+  margin-bottom: 100px;
+}
+.titr-info-aboutus h1 {
+  margin-bottom: 19px;
+}
+.titr-info-aboutus p {
+  padding-bottom: 30px;
+}
+/* TITR INFO ABOUT US END  */
