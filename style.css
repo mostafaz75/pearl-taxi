@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* OUR CLIENT PIC START */
+.our-clients-pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.our-clients-pic img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(150%);
+  opacity: 0.5;
+  transition: all 0.5s;
+}
+.our-clients-pic div:hover > img {
+  webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+.our-clients-pic div {
+  padding: 40px;
+}
+/* OUR CLIEINTS PIC END */
+/* PIR CLIENTS TITR START  */
+.our-clients-titr h1 {
+  text-align: center;
+  padding: 30px;
+}
+/* OUR CLIENTS TITR END */
+/* OUR CLIENTS INFO START  */
+.our-clients-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.our-clients-info div {
+  width: 400px;
+  padding-right: 100px;
+  margin-top: 25px;
+}
+.our-clients-info i {
+  margin-bottom: 50px;
+}
+/* OUR CLIENTS INFO END  */
+/* CHANGE FEEDBACK START */
+.change-feedback {
+  text-align: center;
+  margin-top: 20px;
+}
+/* CHANGE FEEDBACK END */
