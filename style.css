@@ -56,6 +56,8 @@ body {
   height: 35px;
   margin-top: 10px;
   border-radius: 5px;
+  position: absolute;
+  left: 196px;
 }
 .themes i {
   position: absolute;
@@ -63,35 +65,43 @@ body {
   top: 12px;
   width: 9px;
 }
+.themes:hover .more-themes{
+  visibility: visible;
+}
 .more-themes {
   background-color: #232323;
   font-size: 12px;
-  /* list-style-type: none; */
-  /* visibility: hidden; */
-  /* overflow-x: hidden; */
+  z-index:99;
+  height: 260px;
+  visibility: hidden;
+  overflow-x: hidden;
+}
+.more-theme>ul>li{
+  position: absolute;
 }
 .more-themes::-webkit-scrollbar {
-  display: none;
+  /* display: none; */
 }
 ul {
   /* height: 260px; */
 }
-.more-themes {
-  visibility: hidden;
-}
+
 .more-themes ul > li {
   list-style-type: none;
-  position: relative;
+  /* position: relative; */
 }
-.theme-consulting:hover img {
+.theme-select:hover img {
   visibility: visible;
 }
-.theme-consulting img {
-  width: 300px;
-  left: 160px;
+.theme-select img {
   position: absolute;
   left: 100%;
-  /* visibility: hidden; */
+  width: 300px;
+  position: absolute;
+  visibility: hidden;
+  left: 201px;
+  top: 55px;
+  
 }
 /* themes css code [end] */
 /* switcher-center css code [start] */
@@ -124,14 +134,17 @@ ul {
   font-size: 13px;
 }
 .fa-gear {
-  /* position: absolute; */
-  /* top: 14px;
-  left: 8px; */
+
   width: 15px;
   height: 15px;
   color: var(--green);
   font-size: 14px;
+      
+      position: absolute;
+    left: 77px;
+    top: 14px;
 }
+
 .green {
   color: var(--green);
 }
@@ -277,7 +290,7 @@ ul {
   /* padding: 379px 0; */
   position: relative;
   margin: 0 auto;
-  z-index: 111;
+  z-index: 1;
   position: relative;
 }
 /* bottom-header css code [start] */
@@ -340,7 +353,7 @@ ul {
     transform: translatey(1px);
   }
   100% {
-    transform: translatey(10px) scaley(3);
+    transform: translatey(10px) scaley(2);
   }
 }
 .header-bar:hover {
@@ -388,6 +401,9 @@ ul {
 .elemenet {
   border-left: 3px solid #23232314;
   padding-left: 46px;
+  display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 .elemenet ul li:hover {
   opacity: 0.4;
@@ -461,7 +477,7 @@ ul {
 .call-now {
   font-size: 18px;
   line-height: 1;
-  font-weight: 700;
+  font-weight: 400;
   letter-spacing: 0.4px;
   transition: color 0.3s;
 }
@@ -548,7 +564,7 @@ ul {
 }
 .back-ground img {
   width: -webkit-fill-available;
-  height: 474px;
+  height: 675px;
 }
 /* main banner css code [end] */
 
@@ -559,6 +575,9 @@ ul {
     align-items: center;
     flex-wrap: nowrap;
     box-sizing: border-box
+}
+.services h1{
+  margin-bottom: 48px;
 }
 .services-image{
   display: flex;
@@ -571,6 +590,7 @@ ul {
 }
 .taxi-services:hover img{
 transform: scale(1.1);
+transition: all .3s ease-in-out;
 border-radius: 10px;
 overflow: hidden;
 box-sizing: border-box
@@ -589,16 +609,23 @@ box-sizing: border-box
     box-sizing: border-box;
     margin: 0 auto 26px;
     width: 100%;
-    max-width: 320px;
+    /* max-width: 320px; */
     position: relative;
-    padding-bottom: 55.5%;
+    /* padding-bottom: 55.5%; */
     border-radius: 10px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .taxi-services{
   border-radius: 10px;
   overflow: hidden;
   transition: all 1s ease-in-out;
   box-sizing: border-box;
-  transition: all 11110ms ease-in-out;
+  transition: all .3s
+  /* transition: all 11110ms ease-in-out; */
+}
+.taxi-services-span{
+  font-size: 24px;
+    line-height: 26px;
+    font-weight: 300;
+    align-items: center;
 }
