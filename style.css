@@ -1082,7 +1082,7 @@ a {
 
 .bottom-card p {
   color: #b6b6b6;
-  margin-top: -14px;
+  margin-top: 0px;
 }
 
 .top-card {
@@ -1132,7 +1132,7 @@ a {
 }
 
 .left-text p {
-  margin-top: -17px;
+  margin-top: 0px;
 }
 
 .right-searchbox {
