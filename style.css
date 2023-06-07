@@ -1,7 +1,5 @@
-
-*{
-  
-  font-family: HelveticaNeue,"Helvetica Neue",Helvetica,Arial,sans-serif;
+* {
+  font-family: HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 body {
   margin: 0;
@@ -744,7 +742,6 @@ body {
 /* CONTAINER ABOUT US START */
 .container-aboutus {
   margin: 100px auto;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -775,6 +772,12 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+/* CONTAINER CLIENTS START */
+.container-clients {
+  margin: auto;
+  margin-bottom: 100px;
+}
+/* CONTAINER CLIENTS END */
 /* OUR CLIENT PIC START */
 .our-clients-pic {
   display: flex;
@@ -792,6 +795,7 @@ body {
   webkit-filter: grayscale(0%);
   filter: grayscale(0%);
   opacity: 1;
+  cursor: pointer;
 }
 
 .our-clients-pic div {
@@ -818,18 +822,20 @@ body {
 }
 .our-clients-info i {
   margin-bottom: 50px;
+  cursor: pointer;
 }
 /* OUR CLIENTS INFO END  */
 /* CHANGE FEEDBACK START */
 .change-feedback {
   text-align: center;
   margin-top: 20px;
+  cursor: pointer;
 }
 /* CHANGE FEEDBACK END */
 
 /* CONTAINER FIRST RIDE START */
 .container-first-ride {
-  margin: 0 auto;
+  margin: 100px auto;
 }
 /* CONTAINER FIRST RIDE END */
 /* PIC TEXT FIRST RIDE START */
@@ -878,7 +884,7 @@ body {
 /* PIC TEXT FIRST RIDE BUTTON END */
 /* CONTAINER DRIVERS SAY START  */
 .container-drivers-say {
-  margin: 0 auto;
+  margin: 110px auto;
   width: 1000px;
 }
 /* CONTAINER DRIVERS SAY END  */
@@ -942,11 +948,11 @@ body {
 }
 /* TEXT RIVERS SAY I END */
 /*GENERAL CSS [START]*/
-*{
-  font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+* {
+  font-family: "Poppins", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-a{
+a {
   text-decoration: none;
   color: black;
   transition: all 0.3s;
@@ -954,201 +960,198 @@ a{
 /*GENERAL CSS [ENDD]*/
 
 /*SECTION 12 CSS [START]*/
-.SECTION-12{
- display: block;
- width: 100%;
- background-color: rgb(245, 245, 245);
- margin-bottom: 60px;
+.SECTION-12 {
+  display: block;
+  width: 100%;
+  background-color: rgb(245, 245, 245);
+  margin-bottom: 60px;
 }
 
-.CONTAINER-12{
+.CONTAINER-12 {
   width: 1500px;
   margin: 0 auto;
   display: flex;
 }
 
-
-.left-part img{
-width: 910px;
-height: 640px;
-margin-right: 100px;
-vertical-align: top;
+.left-part img {
+  width: 910px;
+  height: 640px;
+  margin-right: 100px;
+  vertical-align: top;
 }
 
-.right-part{
+.right-part {
   width: 700px;
- 
 }
 
-.r-bottom{
-width: 530px;
+.r-bottom {
+  width: 530px;
 }
 
-.r-bottom form input{
-padding: 17px 30px 17px 12px;
-background-color: #fff;
-border: 1px solid #e5e7e8;
-color: #b6b6b6;
-border-radius: 4px;
-margin-bottom: 28px;
-margin-right: 18px;
-outline-color: rgb(255, 201, 101);
+.r-bottom form input {
+  padding: 17px 30px 17px 12px;
+  background-color: #fff;
+  border: 1px solid #e5e7e8;
+  color: #b6b6b6;
+  border-radius: 4px;
+  margin-bottom: 28px;
+  margin-right: 18px;
+  outline-color: rgb(255, 201, 101);
 }
 
-.r-bottom b{
+.r-bottom b {
   font-weight: 660;
   padding: 11px 24px;
   color: black;
-  border:1px solid  rgb(255, 212, 23);
+  border: 1px solid rgb(255, 212, 23);
   background-color: rgb(255, 212, 23);
   display: inline-block;
   margin-top: 3px;
   border-radius: 3.5px;
-  transition: all 0.3s ;
+  transition: all 0.3s;
   cursor: pointer;
 }
 
-.r-bottom b:hover{
+.r-bottom b:hover {
   font-weight: 660;
   padding: 11px 24px;
-  color:rgb(255, 212, 23) ;
-  border:1px solid  rgb(0, 0, 0);
+  color: rgb(255, 212, 23);
+  border: 1px solid rgb(0, 0, 0);
   background-color: rgb(0, 0, 0);
   display: inline-block;
   margin-top: 3px;
   border-radius: 3.5px;
 }
 
-.r-top{
-width: 450px;
-margin-bottom: 37px;
-padding-top: 50px;
+.r-top {
+  width: 450px;
+  margin-bottom: 37px;
+  padding-top: 50px;
 }
 
-.r-top h1{
+.r-top h1 {
   margin-bottom: -14px;
   font-size: 36px;
 }
 /*SECTION 12 CSS [END]*/
 
 /*SECTION 13 CSS [START]*/
-.SECTION-13{
+.SECTION-13 {
   display: block;
   width: 100%;
 }
 
-.CONTAINER-13{
-margin: 0 auto;
-width: 1163px;
-margin-bottom: 80px;
+.CONTAINER-13 {
+  margin: 0 auto;
+  width: 1163px;
+  margin-bottom: 80px;
 }
 
-.CONTAINER-13 h1{
+.CONTAINER-13 h1 {
   font-size: 36px;
 }
 
-.text-title{
+.text-title {
   text-align: center;
 }
 
-.container-box{
+.container-box {
   display: flex;
 }
 
-.box-card{
+.box-card {
   width: 360px;
   margin-right: 40px;
 }
 
-.bottom-card h5{
-font-size: 18px;
-width: 300px;
-margin-top: 20px;
-transition: all 0.3s;
-cursor: pointer;
+.bottom-card h5 {
+  font-size: 18px;
+  width: 300px;
+  margin-top: 20px;
+  transition: all 0.3s;
+  cursor: pointer;
 }
 
-
-.bottom-card h5:hover{
-  color:rgb(255, 212, 23) ;
+.bottom-card h5:hover {
+  color: rgb(255, 212, 23);
 }
 
-.bottom-card{
+.bottom-card {
   padding-left: 35px;
 }
 
-.bottom-card p{
-color: #b6b6b6;
-margin-top: -14px;
+.bottom-card p {
+  color: #b6b6b6;
+  margin-top: -14px;
 }
 
-.top-card{
+.top-card {
   overflow: hidden;
-   border-radius: 20px;
+  border-radius: 20px;
   width: 360px;
   height: 230px;
   transition: all 0.4s;
 }
 
 .top-card img {
-    border-radius: 0;
-    transition: all 0.4s;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    cursor: pointer;
-    width: 360px;
-    height: 230px;
+  border-radius: 0;
+  transition: all 0.4s;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  cursor: pointer;
+  width: 360px;
+  height: 230px;
 }
 
-.box-card .top-card img:hover{
+.box-card .top-card img:hover {
   width: 400px;
   height: 270px;
-box-shadow:10px 20px 10px 5px #b6b6b6;
+  box-shadow: 10px 20px 10px 5px #b6b6b6;
 }
 /*SECTION 13 CSS [END]*/
 
 /*SUBSCRIBE TO OUR NEWSLETTER CSS [START]*/
-.SUBSCRIBE-TO-OUR-NEWSLETTER{
+.SUBSCRIBE-TO-OUR-NEWSLETTER {
   display: block;
   width: 100%;
   padding-top: 30px;
   padding-bottom: 30px;
-  background-image:url(Image/yellow-bg.jpg) ;
+  background-image: url(Image/yellow-bg.jpg);
   margin-bottom: 50px;
 }
 
-.-CONTAINER-S-T-O-N{
+.-CONTAINER-S-T-O-N {
   margin: 0 auto;
   width: 1200px;
   display: flex;
 }
 
-.left-text{
-width: 520px;
-padding-left: 100px;
+.left-text {
+  width: 520px;
+  padding-left: 100px;
 }
 
-.left-text p{
+.left-text p {
   margin-top: -17px;
 }
 
-.right-searchbox{
+.right-searchbox {
   width: 480px;
   padding-top: 40px;
   margin-left: 40px;
   vertical-align: middle;
 }
 
-.right-searchbox form input{
+.right-searchbox form input {
   padding: 11px 60px 11px 12px;
-background-color: #fff;
-border: 1px solid #e5e7e8;
-color: #b6b6b6;
-border-radius: 4px;
-outline: none;
+  background-color: #fff;
+  border: 1px solid #e5e7e8;
+  color: #b6b6b6;
+  border-radius: 4px;
+  outline: none;
 }
 
-.right-searchbox form span{
+.right-searchbox form span {
   padding: 9.5px 22px;
   color: rgb(255, 255, 255);
   background-color: #ff1111;
@@ -1159,101 +1162,101 @@ outline: none;
 /*SUBSCRIBE TO OUR NEWSLETTER CSS [END]*/
 
 /*SECTION 14:Footer CSS [START]*/
-.SECTION-14{
+.SECTION-14 {
   display: block;
   width: 100%;
 }
 
-.ALL-CONTAINER-FOOTER{
+.ALL-CONTAINER-FOOTER {
   width: 1300px;
-  margin:0 auto;
+  margin: 0 auto;
 }
 
-.Container-f-items{
+.Container-f-items {
   display: flex;
   flex-wrap: wrap;
- padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 
-.footer-items{
+.footer-items {
   width: 300px;
-  margin:0 auto;
+  margin: 0 auto;
   margin-bottom: 40px;
 }
 
-.footer-items:first-of-type{
+.footer-items:first-of-type {
   width: 350px;
   padding-top: 20px;
 }
 
-.F-bottom-item ul li{
-  color:rgb(248, 205, 11) ;
+.F-bottom-item ul li {
+  color: rgb(248, 205, 11);
   margin-left: -20px;
 }
 
-.F-bottom-item a:hover{
-  color:rgb(248, 205, 11) ;
+.F-bottom-item a:hover {
+  color: rgb(248, 205, 11);
 }
 
-.F-top-item img{
+.F-top-item img {
   cursor: pointer;
 }
 
-.F-bottom-item .ID{
+.F-bottom-item .ID {
   cursor: pointer;
-  font-size: 16PX;
+  font-size: 16px;
 }
 
-.F-top-item{
+.F-top-item {
   margin-bottom: 30px;
 }
 
-.bottom-text-footer{
-margin:0 auto;
+.bottom-text-footer {
+  margin: 0 auto;
 }
 
-.bottom-text-footer p{
+.bottom-text-footer p {
   font-size: 13.8px;
 }
 
-.bottom-text-footer span:hover{
+.bottom-text-footer span:hover {
   text-decoration: underline;
   cursor: pointer;
 }
 
 .footer-items:nth-child(2) {
- width: 150px;
+  width: 150px;
 }
 
-.F-bottom-item span{
+.F-bottom-item span {
   display: inline-block;
   margin-right: 10px;
   font-size: 22px;
-  width: 48PX;
-  height: 48PX;
-  border-radius: 50PX;
-  background-color:rgb(248, 205, 11) ;
+  width: 48px;
+  height: 48px;
+  border-radius: 50px;
+  background-color: rgb(248, 205, 11);
   cursor: pointer;
-  display:inline-flex;
+  display: inline-flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   transition: all 0.3s;
 }
 
-.F-bottom-item span:nth-child(4){
+.F-bottom-item span:nth-child(4) {
   font-family: poppins;
   font-weight: 700;
   transition: all 0.3s;
 }
 
-.F-bottom-item span:nth-child(4):hover{
-  color:rgb(248, 205, 11) ;
-  background-color:rgb(0, 0, 0) ;
+.F-bottom-item span:nth-child(4):hover {
+  color: rgb(248, 205, 11);
+  background-color: rgb(0, 0, 0);
 }
 
-.F-bottom-item span:hover{
-  color:rgb(248, 205, 11) ;
-  background-color:rgb(0, 0, 0) ;
+.F-bottom-item span:hover {
+  color: rgb(248, 205, 11);
+  background-color: rgb(0, 0, 0);
 }
 /*SECTION 14:Footer CSS [END]*/
