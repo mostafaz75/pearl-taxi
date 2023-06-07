@@ -922,7 +922,6 @@ body {
 .line::after {
   width: 1px;
   content: "";
-
   height: 110px;
   background-color: #ffd201;
   display: block;
@@ -933,6 +932,7 @@ body {
   font-size: 55px;
   margin-left: -10px;
   line-height: 0px;
+  cursor: default;
 }
 /* LINE END  */
 /* TEXT DRIVERS SAY P START  */
@@ -945,6 +945,7 @@ body {
 .text-drivers-say i {
   margin-top: 70px;
   padding-right: 5px;
+  cursor: pointer;
 }
 /* TEXT RIVERS SAY I END */
 /*GENERAL CSS [START]*/
