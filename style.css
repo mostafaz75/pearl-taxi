@@ -292,7 +292,7 @@ body {
   position: relative;
 }
 .header-links {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 /* bottom-header css code [start] */
 .bottom-header {
@@ -302,8 +302,7 @@ body {
   align-items: flex-start;
   flex-wrap: wrap;
   gap: 155px;
-
-  margin-top: 35px;
+  background-color: var(--White);
 }
 /* header-links css code [start] */
 .header-links a {
