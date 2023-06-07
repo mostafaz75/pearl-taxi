@@ -963,15 +963,15 @@ a {
 }
 /*GENERAL CSS [ENDD]*/
 
-/*SECTION 12 CSS [START]*/
-.SECTION-12 {
+/*SECTION twelfth CSS [START]*/
+.SECTION-twelfth {
   display: block;
   width: 100%;
   background-color: rgb(245, 245, 245);
   margin-bottom: 60px;
 }
 
-.CONTAINER-12 {
+.CONTAINER-twelfth {
   width: 1500px;
   margin: 0 auto;
   display: flex;
@@ -1037,21 +1037,21 @@ a {
   margin-bottom: -14px;
   font-size: 36px;
 }
-/*SECTION 12 CSS [END]*/
+/*SECTION twelfth CSS [END]*/
 
-/*SECTION 13 CSS [START]*/
-.SECTION-13 {
+/*SECTION thirteenth CSS [START]*/
+.SECTION-thirteenth {
   display: block;
   width: 100%;
 }
 
-.CONTAINER-13 {
+.CONTAINER-thirteenth {
   margin: 0 auto;
   width: 1163px;
   margin-bottom: 80px;
 }
 
-.CONTAINER-13 h1 {
+.CONTAINER-thirteenth h1 {
   font-size: 36px;
 }
 
@@ -1112,7 +1112,7 @@ a {
   height: 270px;
   box-shadow: 10px 20px 10px 5px #b6b6b6;
 }
-/*SECTION 13 CSS [END]*/
+/*SECTION thirteenth CSS [END]*/
 
 /*SUBSCRIBE TO OUR NEWSLETTER CSS [START]*/
 .SUBSCRIBE-TO-OUR-NEWSLETTER {
