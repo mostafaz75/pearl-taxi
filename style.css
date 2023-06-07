@@ -941,3 +941,319 @@ body {
   padding-right: 5px;
 }
 /* TEXT RIVERS SAY I END */
+/*GENERAL CSS [START]*/
+*{
+  font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  transition: all 0.3s;
+}
+/*GENERAL CSS [ENDD]*/
+
+/*SECTION 12 CSS [START]*/
+.SECTION-12{
+ display: block;
+ width: 100%;
+ background-color: rgb(245, 245, 245);
+ margin-bottom: 60px;
+}
+
+.CONTAINER-12{
+  width: 1500px;
+  margin: 0 auto;
+  display: flex;
+}
+
+
+.left-part img{
+width: 910px;
+height: 640px;
+margin-right: 100px;
+vertical-align: top;
+}
+
+.right-part{
+  width: 700px;
+ 
+}
+
+.r-bottom{
+width: 530px;
+}
+
+.r-bottom form input{
+padding: 17px 30px 17px 12px;
+background-color: #fff;
+border: 1px solid #e5e7e8;
+color: #b6b6b6;
+border-radius: 4px;
+margin-bottom: 28px;
+margin-right: 18px;
+outline-color: rgb(255, 201, 101);
+}
+
+.r-bottom b{
+  font-weight: 660;
+  padding: 11px 24px;
+  color: black;
+  border:1px solid  rgb(255, 212, 23);
+  background-color: rgb(255, 212, 23);
+  display: inline-block;
+  margin-top: 3px;
+  border-radius: 3.5px;
+  transition: all 0.3s ;
+  cursor: pointer;
+}
+
+.r-bottom b:hover{
+  font-weight: 660;
+  padding: 11px 24px;
+  color:rgb(255, 212, 23) ;
+  border:1px solid  rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
+  display: inline-block;
+  margin-top: 3px;
+  border-radius: 3.5px;
+}
+
+.r-top{
+width: 450px;
+margin-bottom: 37px;
+padding-top: 50px;
+}
+
+.r-top h1{
+  margin-bottom: -14px;
+  font-size: 36px;
+}
+/*SECTION 12 CSS [END]*/
+
+/*SECTION 13 CSS [START]*/
+.SECTION-13{
+  display: block;
+  width: 100%;
+}
+
+.CONTAINER-13{
+margin: 0 auto;
+width: 1163px;
+margin-bottom: 80px;
+}
+
+.CONTAINER-13 h1{
+  font-size: 36px;
+}
+
+.text-title{
+  text-align: center;
+}
+
+.container-box{
+  display: flex;
+}
+
+.box-card{
+  width: 360px;
+  margin-right: 40px;
+}
+
+.bottom-card h5{
+font-size: 18px;
+width: 300px;
+margin-top: 20px;
+transition: all 0.3s;
+cursor: pointer;
+}
+
+
+.bottom-card h5:hover{
+  color:rgb(255, 212, 23) ;
+}
+
+.bottom-card{
+  padding-left: 35px;
+}
+
+.bottom-card p{
+color: #b6b6b6;
+margin-top: -14px;
+}
+
+.top-card{
+  overflow: hidden;
+   border-radius: 20px;
+  width: 360px;
+  height: 230px;
+  transition: all 0.4s;
+}
+
+.top-card img {
+    border-radius: 0;
+    transition: all 0.4s;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    cursor: pointer;
+    width: 360px;
+    height: 230px;
+}
+
+.box-card .top-card img:hover{
+  width: 400px;
+  height: 270px;
+box-shadow:10px 20px 10px 5px #b6b6b6;
+}
+/*SECTION 13 CSS [END]*/
+
+/*SUBSCRIBE TO OUR NEWSLETTER CSS [START]*/
+.SUBSCRIBE-TO-OUR-NEWSLETTER{
+  display: block;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-image:url(Image/yellow-bg.jpg) ;
+  margin-bottom: 50px;
+}
+
+.-CONTAINER-S-T-O-N{
+  margin: 0 auto;
+  width: 1200px;
+  display: flex;
+}
+
+.left-text{
+width: 520px;
+padding-left: 100px;
+}
+
+.left-text p{
+  margin-top: -17px;
+}
+
+.right-searchbox{
+  width: 480px;
+  padding-top: 40px;
+  margin-left: 40px;
+  vertical-align: middle;
+}
+
+.right-searchbox form input{
+  padding: 11px 60px 11px 12px;
+background-color: #fff;
+border: 1px solid #e5e7e8;
+color: #b6b6b6;
+border-radius: 4px;
+outline: none;
+}
+
+.right-searchbox form span{
+  padding: 9.5px 22px;
+  color: rgb(255, 255, 255);
+  background-color: #ff1111;
+  border-radius: 3px;
+  margin-left: -4px;
+  cursor: pointer;
+}
+/*SUBSCRIBE TO OUR NEWSLETTER CSS [END]*/
+
+/*SECTION 14:Footer CSS [START]*/
+.SECTION-14{
+  display: block;
+  width: 100%;
+}
+
+.ALL-CONTAINER-FOOTER{
+  width: 1300px;
+  margin:0 auto;
+}
+
+.Container-f-items{
+  display: flex;
+  flex-wrap: wrap;
+ padding-bottom: 20px;
+}
+
+.footer-items{
+  width: 300px;
+  margin:0 auto;
+  margin-bottom: 40px;
+}
+
+.footer-items:first-of-type{
+  width: 350px;
+  padding-top: 20px;
+}
+
+.F-bottom-item ul li{
+  color:rgb(248, 205, 11) ;
+  margin-left: -20px;
+}
+
+.F-bottom-item a:hover{
+  color:rgb(248, 205, 11) ;
+}
+
+.F-top-item img{
+  cursor: pointer;
+}
+
+.F-bottom-item .ID{
+  cursor: pointer;
+  font-size: 16PX;
+}
+
+.F-top-item{
+  margin-bottom: 30px;
+}
+
+.bottom-text-footer{
+margin:0 auto;
+}
+
+.bottom-text-footer p{
+  font-size: 13.8px;
+}
+
+.bottom-text-footer span:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.footer-items:nth-child(2) {
+ width: 150px;
+}
+
+.F-bottom-item span{
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 22px;
+  width: 48PX;
+  height: 48PX;
+  border-radius: 50PX;
+  background-color:rgb(248, 205, 11) ;
+  cursor: pointer;
+  display:inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s;
+}
+
+.F-bottom-item span:nth-child(4){
+  font-family: poppins;
+  font-weight: 700;
+  transition: all 0.3s;
+}
+
+.F-bottom-item span:nth-child(4):hover{
+  color:rgb(248, 205, 11) ;
+  background-color:rgb(0, 0, 0) ;
+}
+
+.F-bottom-item span:hover{
+  color:rgb(248, 205, 11) ;
+  background-color:rgb(0, 0, 0) ;
+}
+/*SECTION 14:Footer CSS [END]*/
