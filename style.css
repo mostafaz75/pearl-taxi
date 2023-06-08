@@ -1057,6 +1057,7 @@ a {
 
 .text-title {
   text-align: center;
+  margin-bottom: 35px;
 }
 
 .container-box {
@@ -1190,7 +1191,6 @@ a {
 
 .footer-items:first-of-type {
   width: 350px;
-  padding-top: 20px;
 }
 
 .F-bottom-item ul li {
