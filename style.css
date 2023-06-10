@@ -593,8 +593,6 @@ body {
   overflow: hidden;
   box-sizing: border-box;
 }
-.services-image img {
-}
 .services-image div {
   display: flex;
   flex-wrap: nowrap;
@@ -795,7 +793,7 @@ body {
   transition: all 0.5s;
 }
 .our-clients-pic div:hover > img {
-  webkit-filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
   opacity: 1;
   cursor: pointer;
@@ -963,15 +961,15 @@ a {
 }
 /*GENERAL CSS [END]*/
 
-/*SECTION twelfth CSS [START]*/
-.SECTION-twelfth {
+/*SECTION BECOME A DRIVER CSS [START]*/
+.SECTION-BECOME-DRIVER {
   display: block;
   width: 100%;
   background-color: rgb(245, 245, 245);
   margin-bottom: 60px;
 }
 
-.CONTAINER-twelfth {
+.CONTAINER-BECOME-DRIVER {
   width: 1500px;
   margin: 0 auto;
   display: flex;
@@ -988,11 +986,11 @@ a {
   width: 700px;
 }
 
-.r-bottom {
+.right-to-contaner-bottom {
   width: 530px;
 }
 
-.r-bottom form input {
+.right-to-contaner-bottom form input {
   padding: 17px 30px 17px 12px;
   background-color: #fff;
   border: 1px solid #e5e7e8;
@@ -1003,7 +1001,7 @@ a {
   outline-color: rgb(255, 201, 101);
 }
 
-.r-bottom b {
+.right-to-contaner-bottom b {
   font-weight: 660;
   padding: 11px 24px;
   color: black;
@@ -1016,7 +1014,7 @@ a {
   cursor: pointer;
 }
 
-.r-bottom b:hover {
+.right-to-contaner-bottom b:hover {
   font-weight: 660;
   padding: 11px 24px;
   color: rgb(255, 212, 23);
@@ -1027,31 +1025,30 @@ a {
   border-radius: 3.5px;
 }
 
-.r-top {
+.right-to-contaner-top {
   width: 450px;
   margin-bottom: 37px;
   padding-top: 50px;
 }
 
-.r-top h1 {
-  margin-bottom: -14px;
+.right-to-contaner-top h1 {
   font-size: 36px;
 }
-/*SECTION twelfth CSS [END]*/
+/*SECTION BECOME A DRIVER CSS [END]*/
 
-/*SECTION thirteenth CSS [START]*/
-.SECTION-thirteenth {
+/*SECTION LATEST NEWS CSS [START]*/
+.SECTION-LATEST-NEWS {
   display: block;
   width: 100%;
 }
 
-.CONTAINER-thirteenth {
+.CONTAINER-LATEST-NEWS {
   margin: 0 auto;
   width: 1163px;
   margin-bottom: 80px;
 }
 
-.CONTAINER-thirteenth h1 {
+.CONTAINER-LATEST-NEWS h1 {
   font-size: 36px;
 }
 
@@ -1113,7 +1110,7 @@ a {
   height: 270px;
   box-shadow: 10px 20px 10px 5px #b6b6b6;
 }
-/*SECTION thirteenth CSS [END]*/
+/*SECTION LATEST NEWS CSS [END]*/
 
 /*SUBSCRIBE TO OUR NEWSLETTER CSS [START]*/
 .SUBSCRIBE-TO-OUR-NEWSLETTER {
@@ -1125,7 +1122,7 @@ a {
   margin-bottom: 50px;
 }
 
-.-CONTAINER-S-T-O-N {
+.CONTAINER-SUBSCRIBE-TO-OUR-NEWSLETTER {
   margin: 0 auto;
   width: 1200px;
   display: flex;
@@ -1166,8 +1163,8 @@ a {
 }
 /*SUBSCRIBE TO OUR NEWSLETTER CSS [END]*/
 
-/*SECTION fourteen:Footer CSS [START]*/
-.SECTION-fourteen {
+/*SECTION:Footer CSS [START]*/
+.SECTION-FOOTER {
   display: block;
   width: 100%;
 }
@@ -1177,7 +1174,7 @@ a {
   margin: 0 auto;
 }
 
-.Container-f-items {
+.Container-footer-items {
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 20px;
@@ -1193,25 +1190,25 @@ a {
   width: 350px;
 }
 
-.F-bottom-item ul li {
+.Footer-bottom-item ul li {
   color: rgb(248, 205, 11);
   margin-left: -20px;
 }
 
-.F-bottom-item a:hover {
+.Footer-bottom-item a:hover {
   color: rgb(248, 205, 11);
 }
 
-.F-top-item img {
+.Footer-top-item img {
   cursor: pointer;
 }
 
-.F-bottom-item .ID {
+.Footer-bottom-item .ID {
   cursor: pointer;
   font-size: 16px;
 }
 
-.F-top-item {
+.Footer-top-item {
   margin-bottom: 30px;
 }
 
@@ -1232,7 +1229,7 @@ a {
   width: 150px;
 }
 
-.F-bottom-item span {
+.Footer-bottom-item span {
   display: inline-block;
   margin-right: 10px;
   font-size: 22px;
@@ -1248,19 +1245,19 @@ a {
   transition: all 0.3s;
 }
 
-.F-bottom-item span:nth-child(4) {
+.Footer-bottom-item span:nth-child(4) {
   font-family: poppins;
   font-weight: 700;
   transition: all 0.3s;
 }
 
-.F-bottom-item span:nth-child(4):hover {
+.Footer-bottom-item span:nth-child(4):hover {
   color: rgb(248, 205, 11);
   background-color: rgb(0, 0, 0);
 }
 
-.F-bottom-item span:hover {
+.Footer-bottom-item span:hover {
   color: rgb(248, 205, 11);
   background-color: rgb(0, 0, 0);
 }
-/*SECTION fourteen:Footer CSS [END]*/
+/*SECTION:Footer CSS [END]*/
