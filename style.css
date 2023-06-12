@@ -1164,18 +1164,18 @@ a {
 }
 /*SECTION BECOME A DRIVER CSS [END]*/
 
-/*SECTION thirteenth CSS [START]*/
-.SECTION-thirteenth {
+/*SECTION  LATEST NEWS CSS [START]*/
+.SECTION-LATEST-NEWS {
 
 }
 
-.CONTAINER-thirteenth {
+.CONTAINER-LATEST-NEWS {
   /* margin: 0 auto; */
   /* width: 1163px; */
   margin-bottom: 80px;
 }
 
-.CONTAINER-thirteenth h1 {
+.CONTAINER-LATEST-NEWS h1 {
   font-size: 36px;
 }
 
@@ -1236,7 +1236,7 @@ a {
   transform: scale(1.1);
   box-shadow: 10px 20px 10px 5px #b6b6b6;
 }
-/*SECTION thirteenth CSS [END]*/
+/*SECTION  LATEST NEWS CSS [END]*/
 
 /*SUBSCRIBE TO OUR NEWSLETTER CSS [START]*/
 .SUBSCRIBE-TO-OUR-NEWSLETTER {
@@ -1253,7 +1253,7 @@ a {
     width: 100%;
 }
 
-.-CONTAINER-S-T-O-N {
+.CONTAINER-YELLOW-SUBSCRIBE {
   /* margin: 0 auto; */
   /* width: 1200px; */
   display: flex;
@@ -1304,7 +1304,7 @@ a {
 /*SUBSCRIBE TO OUR NEWSLETTER CSS [END]*/
 
 /*SECTION fourteen:Footer CSS [START]*/
-.SECTION-fourteen {
+.SECTION-footer {
   display: block;
   width: 100%;
 }
@@ -1314,7 +1314,7 @@ a {
   margin: 0 auto;
 }
 
-.Container-f-items {
+.Container-footer-items {
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 20px;
@@ -1338,33 +1338,33 @@ a {
 .footer-items:first-of-type {
   width: 350px;
 }
-.F-bottom-item{
+.Footer-bottom-item{
   /* margin-left: 41px; */
   opacity: .7;
 }
-.F-bottom-item ul li {
+.Footer-bottom-item ul li {
   color: rgb(248, 205, 11);
   /* margin-left: -20px; */
   padding: 3px 0;
 }
 
-.F-bottom-item a:hover {
+.Footer-bottom-item a:hover {
   color: rgb(248, 205, 11);
 }
 
-.F-top-item img {
+.Footer-top-item img {
   cursor: pointer;
 }
 
-.F-bottom-item .ID {
+.Footer-bottom-item .ID {
   cursor: pointer;
   font-size: 16px;
 }
-.F-bottom-item p{
+.Footer-bottom-item p{
   padding: 11px 0;
 }
 
-.F-top-item {
+.Footer-top-item {
   margin-bottom: 30px;
 }
 
@@ -1388,7 +1388,7 @@ a {
   width: 150px;
 }
 
-.F-bottom-item span {
+.Footer-bottom-item span {
   display: inline-block;
   margin-right: 10px;
   font-size: 22px;
@@ -1404,19 +1404,19 @@ a {
   transition: all 0.3s;
 }
 
-.F-bottom-item span:nth-child(4) {
+.Footer-bottom-item span:nth-child(4) {
   font-family: poppins;
   font-weight: 700;
   transition: all 0.3s;
 }
 
-.F-bottom-item span:nth-child(4):hover {
+.Footer-bottom-item span:nth-child(4):hover {
   color: rgb(248, 205, 11);
   background-color: rgb(0, 0, 0);
 }
 
-.F-bottom-item span:hover {
+.Footer-bottom-item span:hover {
   color: rgb(248, 205, 11);
   background-color: rgb(0, 0, 0);
 }
-/*SECTION fourteen:Footer CSS [END]*/
+/*SECTION:Footer CSS [END]*/
