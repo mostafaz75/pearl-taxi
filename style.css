@@ -1085,15 +1085,15 @@ a {
 }
 /*GENERAL CSS [END]*/
 
-/*SECTION twelfth CSS [START]*/
-.SECTION-twelfth {
+/*SECTION BECOME A DRIVER CSS [START]*/
+.SECTION-BECOME-DRIVER {
   display: block;
   width: 100%;
   background-color: rgb(245, 245, 245);
   margin-bottom: 60px;
 }
 
-.CONTAINER-twelfth {
+.CONTAINER-BECOME-DRIVER {
   /* width: 1500px;
   margin: 0 auto; */
   display: flex;
@@ -1114,11 +1114,11 @@ a {
   width: 700px;
 }
 
-.r-bottom {
+.right-to-contaner-bottom {
   width: 530px;
 }
 
-.r-bottom form input {
+.right-to-contaner-bottom form input {
   padding: 17px 30px 17px 12px;
   background-color: #fff;
   border: 1px solid #e5e7e8;
@@ -1129,7 +1129,7 @@ a {
   outline-color: rgb(255, 201, 101);
 }
 
-.r-bottom b {
+.right-to-contaner-bottom b {
   font-weight: 660;
   padding: 11px 24px;
   color: black;
@@ -1142,7 +1142,7 @@ a {
   cursor: pointer;
 }
 
-.r-bottom b:hover {
+.right-to-contaner-bottom b:hover {
   font-weight: 660;
   padding: 11px 24px;
   color: rgb(255, 212, 23);
@@ -1153,16 +1153,16 @@ a {
   border-radius: 3.5px;
 }
 
-.r-top {
+.right-to-contaner-top {
   width: 450px;
   margin-bottom: 37px;
   padding-top: 50px;
 }
 
-.r-top h1 {
+.right-to-contaner-top h1 {
   font-size: 36px;
 }
-/*SECTION twelfth CSS [END]*/
+/*SECTION BECOME A DRIVER CSS [END]*/
 
 /*SECTION thirteenth CSS [START]*/
 .SECTION-thirteenth {
