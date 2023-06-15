@@ -37,7 +37,7 @@ transition: 0.5s;
 .searchbox-yellow span{
   color: #fff;
   background-color: rgb(255, 217, 0);
-  padding: 11px 14px 11px 12px;
+  padding: 11.3PX;
   margin-left: -4px;
   cursor: pointer;
   transition: 0.4s;
