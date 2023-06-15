@@ -25,9 +25,20 @@ section {
 }
 /*General CSS END*/
 
+/* Section PRICING PLANS Start */
+.title h1 {
+    font-family: 'Poppins';
+    color: #333;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 38px;
+    margin-bottom: 48px;
+}
+/* Section PRICING PLANS END */
+
 /* Section number Start */
 .facts-area {
-    padding: 120px 0;
+    padding: 40px 0;
     background: #ffd201;
     color: black;
     text-align: center;
@@ -61,3 +72,190 @@ section {
     width:25%;
 }
 /* Section number End */
+
+/* Section WHY CHOOSE US CSS Start */
+.services-area h1 {
+    font-family: 'Poppins';
+    color: #333;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 38px;
+    margin-bottom: 48px;
+}
+
+.services-area p {
+    font-family: 'Poppins';
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    line-height: 1.5em;
+}
+
+.icon-box {
+    text-align: center;
+}
+
+.services-area h3 {
+    font-family: 'Poppins';
+    color: #333;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.icon-box .lnr {
+    font-size: 35px;
+    color: #222;
+    transition: all 0.9s ease 0s;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    gap:20px;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.mb-10 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.justify-content-center {
+    justify-content: center !important;
+}
+/* Section WHY CHOOSE US CSS End */
+
+/* Section ORDER TAXI CSS Start*/
+
+.hero-header h6 {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 1.5em;
+    font-size: 14px;
+    color: #222222;
+    margin-bottom: 40px;
+    margin-top: 120px;
+}
+
+.primary-btn {
+    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    line-height: 42px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    color: #fff;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 14px;
+    position: relative;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    position: relative;
+}
+
+.img-taxi {
+    height: auto;
+    max-width: 100%;
+    vertical-align: top;}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+    transform: translateZ(0);
+}
+
+.home-about-area {
+    background-image: url(https://pearl.stylemixthemes.com/taxi/wp-content/uploads/sites/47/2019/11/yellow-bg.jpg?id=7249) !important;
+}
+
+.home-about-area h6 {
+    font-family: 'Poppins';
+    color: #333;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 38px;
+    margin-bottom: 5px;
+}
+
+.home-about-area h2 {
+    font-family: 'Poppins';
+    color: #333;
+    font-weight: 700;
+    letter-spacing: 0px;
+    font-weight: 300;
+    line-height: 42px;
+    margin-bottom: 18px;
+    letter-spacing: 2px;
+}
+
+.home-about-area p {
+    font-family: 'Poppins';
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    line-height: 1.5em;}
+
+.col-6 {
+    margin-right: 70px;
+    position: relative;
+}
+
+.text {
+    margin-right: 50px;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    gap:20px;
+}
+
+.col-6 {
+    width: 50%;
+}
+/* Section ORDER TAXI CSS End*/
+
+/* Section partners Start */
+.brands-logo {
+    padding: 80px 0;
+    color: #fff;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    width: auto;  
+}
+
+.brands-logo .col-3 {
+    opacity: .5;
+}
+
+.brands-logo .col-3:hover {
+    transform: scale(1); 
+    text-decoration: none;
+    background-color: transparent;
+    text-decoration: none;
+    opacity: 1;
+    transition: all .5s;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    gap:20px;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+/* Section partners End */
