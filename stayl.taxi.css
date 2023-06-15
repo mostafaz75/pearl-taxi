@@ -25,27 +25,30 @@ section {
 }
 /*General CSS END*/
 
-/* Section partners Start */
-   .brands-logo {
-    padding: 80px 0;
-    color: #fff;
+/* Section number Start */
+.facts-area {
+    padding: 120px 0;
+    background: #ffd201;
+    color: black;
     text-align: center;
     font-family: "Poppins", sans-serif;
-    box-sizing: border-box;
-    width: auto;  
 }
 
-.brands-logo .col-3 {
-    opacity: .5;
+.facts-area h1 {
+    font-size: 46px;
+    margin: 17px;
 }
 
-.brands-logo .col-3:hover {
-    transform: scale(1); 
-    text-decoration: none;
-    background-color: transparent;
-    text-decoration: none;
-    opacity: 1;
-    transition: all .5s;
+.facts-area h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font: 1em sans-serif;
 }
 
 .row {
@@ -54,7 +57,7 @@ section {
     gap:20px;
 }
 
-.col-4 {
-    width: 33.33%;
+.col-3 {
+    width:25%;
 }
-/* Section partners End */
+/* Section number End */
