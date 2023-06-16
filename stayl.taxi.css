@@ -34,6 +34,60 @@ section {
     line-height: 38px;
     margin-bottom: 48px;
 }
+
+.prefix {
+	vertical-align: super;
+	font-size: 12px;
+}
+
+.price {
+	font-size:32px;
+}
+
+.rtl {
+	direction:rtl;
+}
+
+.in {
+	display:inline;
+	position:relative;
+	margin:5px;
+    color: black;
+}
+
+.in>ul>li {
+    list-style-type: none;
+    font-size: 14px;
+    color: black;
+}
+
+.shadow {
+	border-radius: 20px;
+	background-color: #fff;
+    box-shadow: 0px 15px 30px 0px rgba(0,0,0,.15);
+    margin-bottom: 100px;
+    height: 250px;
+    width: 430px;
+    padding: 8px 30px 23px;
+}
+
+.yellow {
+	bottom:-10px;
+	height:60px;
+	width:120px;
+	border-radius: 20px 160px 20px 20px;
+	background-color: #ffd201;
+	position:absolute;
+}
+
+.yellow:hover {
+	transform:scale(1.5);
+	box-sizing: border-box;	
+}
+
+.rel{
+	position:relative;
+}
 /* Section PRICING PLANS END */
 
 /* Section number Start */
@@ -104,12 +158,6 @@ section {
     line-height: 20px;
 }
 
-.icon-box .lnr {
-    font-size: 35px;
-    color: #222;
-    transition: all 0.9s ease 0s;
-}
-
 .row {
     width: 100%;
     display: flex;
@@ -135,7 +183,6 @@ section {
 /* Section WHY CHOOSE US CSS End */
 
 /* Section ORDER TAXI CSS Start*/
-
 .hero-header h6 {
     text-transform: uppercase;
     font-weight: 400;
@@ -148,12 +195,10 @@ section {
 }
 
 .primary-btn {
-    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
     line-height: 42px;
     padding-left: 30px;
     padding-right: 30px;
     border: none;
-    color: #fff;
     display: inline-block;
     font-weight: 500;
     font-size: 14px;
@@ -196,6 +241,7 @@ img {
     line-height: 42px;
     margin-bottom: 18px;
     letter-spacing: 2px;
+    font-size: 36px;
 }
 
 .home-about-area p {
@@ -213,6 +259,7 @@ img {
 
 .text {
     margin-right: 50px;
+    width: 600px;
 }
 
 .row {
