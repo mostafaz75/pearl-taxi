@@ -1226,6 +1226,8 @@ img {
   color: black;
   background-color: #ffd201;
   font-weight: 750;
+  outline: none;
+  border: none;
   transition: all 0.4s;
 }
 .pic-text-first-ride button:hover {
@@ -1261,7 +1263,7 @@ img {
   flex-direction: row;
 }
 .next-part div {
-  margin-left: 20px;
+  margin-left: 50px;
 }
 /* NEXT PART END */
 /* LINE START */
