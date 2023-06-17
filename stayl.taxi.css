@@ -1,4 +1,4 @@
-/*General CSS START*/
+/*General Post CSS START*/
 a {
     color: #222;
     font-family: "Poppins", sans-serif;
@@ -7,325 +7,278 @@ a {
 }
 
 body {
-    margin: 0;
-    background-color: #fff;
-    color: #777777;
-    font-weight: 300;
-    line-height: 1.65em;    
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins';
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    line-height: 1.5em;
 }
 
 .container {
-    width: 1140px;
+    width: 800px;
     margin: 0 auto;
 }
 
 section {
     padding: 140px 0 0 0;
 }
-/*General CSS END*/
 
-/* Section PRICING PLANS Start */
-.title h1 {
-    font-family: 'Poppins';
-    color: #333;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 38px;
-    margin-bottom: 48px;
-}
-
-.prefix {
-	vertical-align: super;
-	font-size: 12px;
-}
-
-.price {
-	font-size:32px;
-}
-
-.rtl {
-	direction:rtl;
-}
-
-.in {
-	display:inline;
-	position:relative;
-	margin:5px;
-    color: black;
-}
-
-.in>ul>li {
-    list-style-type: none;
-    font-size: 14px;
-    color: black;
-}
-
-.shadow {
-	border-radius: 20px;
-	background-color: #fff;
-    box-shadow: 0px 15px 10px 0px rgba(0,0,0,.15);
-    margin-bottom: 100px;
-    height: 250px;
-    width: 430px;
-    padding: 8px 30px 23px;
-    overflow: hidden;
-}
-
-.yellow {
-	bottom:-10px;
-	height:60px;
-	width:120px;
-	transition: all 200ms ease-in-out;
-	background-color: #ffd201;
-	position:absolute;
-    position: absolute;
-    bottom: -40px;
-    left: -32px;
-    border-start-end-radius:83px 55px;
-    border-start-start-radius: 30px 6px;
-}
-
-.yellow:hover {
-	/* transform:scale(1.5); */
-	box-sizing: border-box;	
-}
-
-.rel{
-	position:relative;
-}
-/* Section PRICING PLANS END */
-
-/* Section number Start */
-.facts-area {
-    padding: 40px 0;
-    background: #ffd201;
-    color: black;
-    text-align: center;
-    font-family: "Poppins", sans-serif;
-}
-
-.facts-area h1 {
-    font-size: 46px;
-    margin: 17px;
-}
-
-.facts-area h4 {
+div {
     display: block;
-    margin-block-start: 1.33em;
-    margin-block-end: 1.33em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-    margin-top: 0;
-    margin-bottom: 1rem;
-    font: 1em sans-serif;
 }
 
-.row {
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+/*General Post CSS END*/
+
+
+/* Section head Start */
+.stm_post_details ul li:first-child {
+    margin: 0;
+}
+
+.stm_post_details ul li {
+    color: #fff;
+    text-transform: none;
+    font-weight: 400;
+}
+
+.stm_post_details ul li {
+    float: left;
+    margin: 0 0 0 20px;
+    font-size: 13PX;
+}
+
+.stm_post_details .comments_num {
+    font-weight: 400;
+    margin-top: 0;
+    font-size: 13PX;
+}
+
+.stm_post_details .comments_num {
+    text-transform: uppercase;
+    padding-left: 15px;
+    margin: -3px 0 0 auto;
+    text-align: right;
+}
+
+.stm_post_details i{
+    font-size: 18PX;
+}
+
+.stm_single_post_style_24 .stm_post_details {
+    padding: 11px 15px 9px;
+}
+
+.stm_post_details {
+    padding: 15px 30px;
+    margin: 0;
+    border: 0;
+}
+
+.wtc {
+    color: #fff !important;
+}
+
+.stm_post_details {
     width: 100%;
     display: flex;
-    gap:20px;
+    position: relative;
+    border-top: 1px solid #ccc;
+    padding: 17px 0 0;
+    margin: 0 0 14px;
+    background-color: #ffd201;
+    margin-bottom: 0%;
 }
 
-.col-3 {
-    width:25%;
+/*.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
-/* Section number End */
+/* Section head END */
 
-/* Section WHY CHOOSE US CSS Start */
-.services-area h1 {
-    font-family: 'Poppins';
-    color: #333;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 38px;
-    margin-bottom: 48px;
-}
 
-.services-area p {
-    font-family: 'Poppins';
-    color: #333;
-    font-size: 16px;
-    font-weight: 400;
+/* Section text Start */
+.stm_single_post_style_24 .stm_author_box__content {
     line-height: 24px;
-    line-height: 1.5em;
 }
 
-.icon-box {
+.stm_author_box__content {
+    overflow: hidden;
+    line-height: 20px
+}
+
+body .stm_mgb_20 {
+    margin-bottom: 20px;
+}
+
+.container .vc_container {
+    width: 100%;
+}
+
+.vc_column_container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.h3, h3 {
+    font-family: 'Poppins';
+    color: #333;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 15px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.wpb_wrapperfirst{
+    float: left;
+}
+
+.wpb_wrappersecend {
+    float: right;
+}
+/* Section text End */
+
+
+/* Section BTN Start */
+.stm_single_post_style_24 .stm_post_panel .stm_single_post__tags a {
+    font-size: 13px;
+    background-color: #f5f5f5;
+    padding: 10px 22px;
+    border-radius: 20px;
+    display: inline-block;
+    line-height: 20px;
+    font-weight: 700;
+}
+
+.stm_flex {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.stm_single_post_style_24 .stm_post_panel .stm_single_post__tags a:not(:last-child) {
+    margin-right: 10px;
+}
+
+.stm_single_post_style_24 .stm_post_panel .stm_single_post__tags a:hover {
+    color: #fff !important;
+    background-color: #ffd201;
+}
+
+.stm_flex_justify_space_between {
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.stm_flex {
+    width: 100%;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.stm_share {
+    margin-bottom: 7px;
+}
+
+.icon-box>img{
+    font-family: 'Font Awesome 5 Brands';
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.stm_share a {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
     text-align: center;
 }
 
-.services-area h3 {
-    font-family: 'Poppins';
-    color: #333;
-    font-size: 18px;
-    font-weight: 700;
+.stm_share img:hover {
+    background-color: #bbb;
+    color: #fff;
+    border-radius: 4px;
+    opacity: 1;
+}
+/* Section BTN End */
+
+
+/* Section box Start */
+.stm_single_post_style_24 .stm_author_box__name {
+    margin: -4px 0 3px;
+    color: inherit;
+    text-transform: none;
+    font-size: 14px;
+}
+
+.stm_author_box__name {
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #aaa;
+    margin: 0 0 10px;
+}
+
+.stm_single_post_style_24 .stm_author_box__content {
+    line-height: 24px;
+}
+
+.stm_author_box__content {
+    overflow: hidden;
     line-height: 20px;
 }
 
-.row {
-    width: 100%;
-    display: flex;
-    gap:20px;
-}
-
-.col-4 {
-    width: 33.33%;
-}
-
-.mb-10 {
-    font-size: 36px;
-    margin-bottom: 10px;
-}
-
-.text-center {
-    text-align: center !important;
-}
-
-.justify-content-center {
-    justify-content: center !important;
-}
-/* Section WHY CHOOSE US CSS End */
-.home-about-area{
-    padding: 0;
-    margin-top: 255px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 139px 0 111px 0;
-}
-/* Section ORDER TAXI CSS Start*/
-.hero-header h6 {
-    text-transform: uppercase;
-    font-weight: 400;
-    letter-spacing: 2px;
-    line-height: 1.5em;
-    font-size: 14px;
-    color: #222222;
-    margin-bottom: 40px;
-    margin-top: 120px;
-}
-
-.primary-btn {
-    line-height: 42px;
-    padding-left: 30px;
-    padding-right: 30px;
-    border: none;
-    display: inline-block;
-    font-weight: 500;
-    font-size: 14px;
+.stm_author_box {
     position: relative;
-    transition: all 0.3s ease 0s;
-    cursor: pointer;
-    position: relative;
+    padding: 20px;
+    background: #f6f6f6;
 }
 
-.img-taxi {
-    height: auto;
-    max-width: 100%;
-    vertical-align: top;
-    position: absolute;
-    bottom: 0px;
+.stm_author_box__avatar {
+    float: left;
+    width: 87px;
+    margin: 0 27px 0 0;
+}
+
+body .stm_mgb_50 {
+    margin-bottom: 50px;
 }
 
 img {
-    vertical-align: middle;
-    border-style: none;
+    max-width: 100%;
+    height: auto;
     transform: translateZ(0);
+    vertical-align: middle;
+    border: 0;
 }
-.text div img{
-position: relative;
-}
-.home-about-area {
-    background-image: url(https://pearl.stylemixthemes.com/taxi/wp-content/uploads/sites/47/2019/11/yellow-bg.jpg?id=7249) !important;
-}
-
-.home-about-area h6 {
-    font-family: 'Poppins';
-    color: #333;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 38px;
-    margin-bottom: 5px;
-}
-
-.home-about-area h2 {
-    font-family: 'Poppins';
-    color: #333;
-    font-weight: 700;
-    letter-spacing: 0px;
-    font-weight: 300;
-    line-height: 42px;
-    margin-bottom: 18px;
-    letter-spacing: 2px;
-    font-size: 36px;
-}
-
-.home-about-area p {
-    font-family: 'Poppins';
-    color: #333;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    line-height: 1.5em;}
-
-.col-6 {
-
-    position: relative;
-}
-
-.text {
-    margin-right: 50px;
-    width: 600px;
-}
-
-.row {
-    width: 100%;
-    display: flex;
-    gap:20px;
-}
-
-.col-6 {
-    width: 50%;
-}
-/* Section ORDER TAXI CSS End*/
-
-/* Section partners Start */
-.brands-logo {
-    padding: 80px 0;
-    color: #fff;
-    text-align: center;
-    font-family: "Poppins", sans-serif;
-    box-sizing: border-box;
-    width: auto;  
-}
-
-.brands-logo .col-3 {
-    opacity: .5;
-}
-
-.brands-logo .col-3:hover {
-    transform: scale(1); 
-    text-decoration: none;
-    background-color: transparent;
-    text-decoration: none;
-    opacity: 1;
-    transition: all .5s;
-}
-
-.row {
-    width: 100%;
-    display: flex;
-    gap:20px;
-}
-
-.col-4 {
-    width: 33.33%;
-}
-.shadow:hover .yellow{
-    transform: scale(1.5);
-}
-.shadow:hover{
-    box-shadow: 0px 15px 30px 0px rgba(0,0,0,.15);
-}
-/* Section partners End */
+/* Section box End */
