@@ -69,15 +69,21 @@ section {
     height: 250px;
     width: 430px;
     padding: 8px 30px 23px;
+    overflow: hidden;
 }
 
 .yellow {
 	bottom:-10px;
 	height:60px;
 	width:120px;
-	border-radius: 20px 160px 20px 20px;
+	transition: all 200ms ease-in-out;
 	background-color: #ffd201;
 	position:absolute;
+    position: absolute;
+    bottom: -40px;
+    left: -32px;
+    border-start-end-radius:83px 55px;
+    border-start-start-radius: 30px 6px;
 }
 
 .yellow:hover {
@@ -181,7 +187,13 @@ section {
     justify-content: center !important;
 }
 /* Section WHY CHOOSE US CSS End */
-
+.home-about-area{
+    padding: 0;
+    margin-top: 255px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 139px 0 111px 0;
+}
 /* Section ORDER TAXI CSS Start*/
 .hero-header h6 {
     text-transform: uppercase;
@@ -211,14 +223,19 @@ section {
 .img-taxi {
     height: auto;
     max-width: 100%;
-    vertical-align: top;}
+    vertical-align: top;
+    position: absolute;
+    bottom: 0px;
+}
 
 img {
     vertical-align: middle;
     border-style: none;
     transform: translateZ(0);
 }
-
+.text div img{
+position: relative;
+}
 .home-about-area {
     background-image: url(https://pearl.stylemixthemes.com/taxi/wp-content/uploads/sites/47/2019/11/yellow-bg.jpg?id=7249) !important;
 }
@@ -253,7 +270,7 @@ img {
     line-height: 1.5em;}
 
 .col-6 {
-    margin-right: 70px;
+
     position: relative;
 }
 
