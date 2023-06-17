@@ -291,7 +291,9 @@ body {
 }
 .header-links {
   margin-top: 20px;
+
 }
+
 /* bottom-header css code [start] */
 .bottom-header {
   position: relative;
@@ -1326,6 +1328,7 @@ a {
   width: 100%;
   background-color: rgb(245, 245, 245);
   margin-bottom: 60px;
+  padding: 0;
 }
 
 .CONTAINER-BECOME-DRIVER {
