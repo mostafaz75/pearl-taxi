@@ -208,61 +208,61 @@ body {
 }
 /* bottom-header css code [end] */
 
-
-*{
-  font-family: 'Poppins', sans-serif;
+* {
+  font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 /*container all css start*/
-#container{
+#container {
   width: 340px;
   float: right;
-  margin-left: 40px;
+  margin-right: 180px;
+
   margin-top: 20px;
 }
 /*container all css end*/
 /*top items css start*/
-.top-items{
-margin:0 auto;
-margin-bottom: 30px;
+.top-items {
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
-.searchbox-yellow input{
-padding: 6px 80px 6px 12px;
-background-color: #fff;
-border: 1px solid #e5e7e8;
-outline: none;
-background-color: #f0f0f0;
-transition: 0.5s;
+.searchbox-yellow input {
+  padding: 6px 80px 6px 12px;
+  background-color: #fff;
+  border: 1px solid #e5e7e8;
+  outline: none;
+  background-color: #f0f0f0;
+  transition: 0.5s;
 }
-.searchbox-yellow{
+.searchbox-yellow {
   padding-bottom: 30px;
-  border-bottom:3.5px solid rgb(255, 217, 0);
+  border-bottom: 3.5px solid rgb(255, 217, 0);
 }
-.searchbox-yellow input:hover{
+.searchbox-yellow input:hover {
   border: 1.4px solid rgb(255, 217, 0);
   background-color: rgb(255, 255, 255);
 }
-.searchbox-yellow span{
+.searchbox-yellow span {
   color: #fff;
   background-color: rgb(255, 217, 0);
-  padding: 11.3PX;
+  padding: 11.3px;
   margin-left: -4px;
   cursor: pointer;
   transition: 0.4s;
 }
-.searchbox-yellow span:hover{
+.searchbox-yellow span:hover {
   color: #222222;
 }
-.CATEGORIES{
+.CATEGORIES {
   margin-top: 40px;
 }
-.CATEGORIES h5{
+.CATEGORIES h5 {
   font-weight: 700;
   margin-bottom: 25px;
 }
-.CATEGORIES p{
+.CATEGORIES p {
   font-size: 12.4px;
   font-weight: 650;
   background-color: rgb(238, 238, 238);
@@ -270,23 +270,23 @@ transition: 0.5s;
   margin-bottom: 3px;
   transition: 0.3s;
 }
-.CATEGORIES p:hover{
+.CATEGORIES p:hover {
   color: #fff;
-background-color: rgb(255, 217, 0);
+  background-color: rgb(255, 217, 0);
 }
-.CATEGORIES{
-  border-bottom:3.5px solid rgb(255, 217, 0);
+.CATEGORIES {
+  border-bottom: 3.5px solid rgb(255, 217, 0);
 }
-.CATEGORIES p:nth-child(6){
-margin-bottom: 30px;
+.CATEGORIES p:nth-child(6) {
+  margin-bottom: 30px;
 }
-.CATEGORIES p:nth-child(3){
-color: #fff;
-background-color: rgb(255, 217, 0);
+.CATEGORIES p:nth-child(3) {
+  color: #fff;
+  background-color: rgb(255, 217, 0);
 }
 /*top items css end*/
 /*bottom items css start*/
-.Dalmar-Johnson p{
+.Dalmar-Johnson p {
   color: rgb(119, 119, 119);
   background: #eeeff2;
   padding: 25px 30px 60px;
@@ -294,68 +294,68 @@ background-color: rgb(255, 217, 0);
   line-height: 28px;
   font-weight: 300;
 }
-.Dalmar-Johnson::after{
+.Dalmar-Johnson::after {
   content: "";
-    bottom: -14px;
-    position: absolute;
-    left: 65px;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 14px 14px 0 0;
-    border-color: #eeeff2 transparent transparent;
+  bottom: -14px;
+  position: absolute;
+  left: 65px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 14px 14px 0 0;
+  border-color: #eeeff2 transparent transparent;
 }
-.Dalmar-Johnson{
+.Dalmar-Johnson {
   position: relative;
   margin-bottom: 35px;
 }
-.Dalmar-Johnson::before{
+.Dalmar-Johnson::before {
   position: absolute;
   bottom: 0;
   right: 0;
   font-size: 100px;
   line-height: 39px;
   content: "،،" !important;
-  transform: translate3d(0,0,0);
-  color:rgb(255, 217, 0);
+  transform: translate3d(0, 0, 0);
+  color: rgb(255, 217, 0);
 }
-.Johnson-PROPHILE{
+.Johnson-PROPHILE {
   margin-bottom: 43px;
 }
-.Johnson-PROPHILE img{
+.Johnson-PROPHILE img {
   border-radius: 50%;
   float: left;
   margin-right: 10px;
 }
-.Johnson-PROPHILE H5{
+.Johnson-PROPHILE H5 {
   font-size: 16px;
   font-weight: 550;
 }
-.Johnson-PROPHILE p{
-font-size: 11px;
-margin-top: -5px;
-font-weight: 500;
-color: gray;
+.Johnson-PROPHILE p {
+  font-size: 11px;
+  margin-top: -5px;
+  font-weight: 500;
+  color: gray;
 }
-.download-btn span{
+.download-btn span {
   color: #ffffff;
   padding-right: 20px;
-  border-right:3px #fff solid;
+  border-right: 3px #fff solid;
   font-size: 20px;
 }
-.download-btn{
+.download-btn {
   background-color: rgb(255, 217, 0);
   padding: 11px 60px 3px 16px;
   border-radius: 6px;
   margin-bottom: 40px;
   transition: 0.3s;
   cursor: pointer;
-  border:2px solid rgb(255, 217, 0);
+  border: 2px solid rgb(255, 217, 0);
 }
-.download-btn:hover{
-  border:2px solid #222222;
+.download-btn:hover {
+  border: 2px solid #222222;
 }
-.download-btn h6{
+.download-btn h6 {
   font-size: 14px;
   font-weight: 700;
   padding-left: 50px;
@@ -363,34 +363,34 @@ color: gray;
   color: #fff;
   transition: 0.3s;
 }
-.download-btn:hover h6{
-  color:rgb(0, 0, 0) ;
+.download-btn:hover h6 {
+  color: rgb(0, 0, 0);
 }
-.list-design-part:nth-child(1){
-  border-top:3px solid #222222;
+.list-design-part:nth-child(1) {
+  border-top: 3px solid #222222;
   padding-top: 40px;
 }
-.list-design-part img{
+.list-design-part img {
   float: left;
   margin-right: 20px;
 }
-.list-design-part p{
+.list-design-part p {
   font-size: 13px;
   font-weight: 500;
-  color:  rgb(245, 208, 0);
+  color: rgb(245, 208, 0);
 }
-.list-design-part h6{
+.list-design-part h6 {
   font-size: 14px;
   font-weight: 700;
   transition: 0.3s;
 }
-.list-design-part{
-  border-top:1px solid rgb(199, 199, 199);
+.list-design-part {
+  border-top: 1px solid rgb(199, 199, 199);
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.list-design-part:hover h6{
-  color: rgb(245, 208, 0) ;
+.list-design-part:hover h6 {
+  color: rgb(245, 208, 0);
 }
 /*bottom items css end*/
 /*SECTION fourteen:Footer CSS [START]*/
@@ -509,32 +509,24 @@ color: gray;
   background-color: rgb(0, 0, 0);
 }
 /*SECTION:Footer CSS [END]*/
-@media (max-width:1200px) {
-.container-aboutus{
-  gap: 0;
+@media (max-width: 1200px) {
+  .container-aboutus {
+    gap: 0;
+  }
 }
-}
-@media (max-width:1000px) {
-  .pic-aboutus img{
+@media (max-width: 1000px) {
+  .pic-aboutus img {
     width: 333px;
   }
 }
-@media (max-width:800px){
-  .container-aboutus{
+@media (max-width: 800px) {
+  .container-aboutus {
     flex-direction: column;
   }
-  .pic-aboutus img{
+  .pic-aboutus img {
     visibility: hidden;
   }
 }
-
-
-
-
-
-
-
-
 
 /*General Post CSS START*/
 a {
@@ -545,7 +537,7 @@ a {
 }
 
 body {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   color: #333;
   font-size: 16px;
   font-weight: 400;
@@ -557,8 +549,6 @@ body {
   width: 756px;
   margin: 0 auto;
 }
-
-
 
 div {
   display: block;
@@ -572,7 +562,6 @@ div {
   list-style-type: none;
 }
 /*General Post CSS END*/
-
 
 /* Section head Start */
 .stm_post_details ul li:first-child {
@@ -588,13 +577,13 @@ div {
 .stm_post_details ul li {
   float: left;
   margin: 0 0 0 20px;
-  font-size: 13PX;
+  font-size: 13px;
 }
 
 .stm_post_details .comments_num {
   font-weight: 400;
   margin-top: 0;
-  font-size: 13PX;
+  font-size: 13px;
 }
 
 .stm_post_details .comments_num {
@@ -604,8 +593,8 @@ div {
   text-align: right;
 }
 
-.stm_post_details i{
-  font-size: 18PX;
+.stm_post_details i {
+  font-size: 18px;
 }
 
 .stm_single_post_style_24 .stm_post_details {
@@ -641,7 +630,6 @@ div {
 }
 /* Section head END */
 
-
 /* Section text Start */
 .stm_single_post_style_24 .stm_author_box__content {
   line-height: 24px;
@@ -649,7 +637,7 @@ div {
 
 .stm_author_box__content {
   overflow: hidden;
-  line-height: 20px
+  line-height: 20px;
 }
 
 body .stm_mgb_20 {
@@ -669,8 +657,9 @@ body .stm_mgb_20 {
   text-align: left;
 }
 
-.h3, h3 {
-  font-family: 'Poppins';
+.h3,
+h3 {
+  font-family: "Poppins";
   color: #333;
   font-size: 24px;
   font-weight: 700;
@@ -686,7 +675,7 @@ p {
   margin-inline-end: 0px;
 }
 
-.wpb_wrapperfirst{
+.wpb_wrapperfirst {
   float: left;
 }
 
@@ -694,7 +683,6 @@ p {
   float: right;
 }
 /* Section text End */
-
 
 /* Section BTN Start */
 .stm_single_post_style_24 .stm_post_panel .stm_single_post__tags a {
@@ -712,7 +700,10 @@ p {
   margin-bottom: 20px;
 }
 
-.stm_single_post_style_24 .stm_post_panel .stm_single_post__tags a:not(:last-child) {
+.stm_single_post_style_24
+  .stm_post_panel
+  .stm_single_post__tags
+  a:not(:last-child) {
   margin-right: 10px;
 }
 
@@ -737,8 +728,8 @@ p {
   margin-bottom: 7px;
 }
 
-.icon-box>img{
-  font-family: 'Font Awesome 5 Brands';
+.icon-box > img {
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   display: inline-block;
@@ -768,7 +759,6 @@ p {
   opacity: 1;
 }
 /* Section BTN End */
-
 
 /* Section box Start */
 .stm_single_post_style_24 .stm_author_box__name {
