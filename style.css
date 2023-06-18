@@ -1403,8 +1403,7 @@ a {
 /*SECTION BECOME A DRIVER CSS [END]*/
 
 /*SECTION  LATEST NEWS CSS [START]*/
-.SECTION-LATEST-NEWS {
-}
+
 
 .CONTAINER-LATEST-NEWS {
   /* margin: 0 auto; */
@@ -1505,10 +1504,6 @@ a {
   margin-right: 203px;
 }
 
-.left-text {
-  /* width: 520px;
-  padding-left: 100px; */
-}
 
 .left-text p {
   margin-top: 0px;
@@ -1674,3 +1669,336 @@ a {
     visibility: hidden;
   }
 }
+/*General CSS START*/
+
+
+section {
+  padding: 140px 0 0 0;
+}
+/*General CSS END*/
+
+/* Section PRICING PLANS Start */
+.title h1 {
+  color: #333;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 38px;
+  margin-bottom: 48px;
+}
+
+.prefix {
+vertical-align: super;
+font-size: 12px;
+}
+
+.price {
+font-size:32px;
+}
+
+.rtl {
+direction:rtl;
+}
+
+.in {
+display:inline;
+position:relative;
+margin:5px;
+  color: black;
+}
+
+.in>ul>li {
+  list-style-type: none;
+  font-size: 14px;
+  color: black;
+}
+
+.shadow {
+border-radius: 20px;
+background-color: #fff;
+  box-shadow: 0px 15px 10px 0px rgba(0,0,0,.15);
+  margin-bottom: 100px;
+  height: 250px;
+  width: 430px;
+  padding: 8px 30px 23px;
+  overflow: hidden;
+  position: relative;
+}
+
+.yellow {
+  
+  height: 106px;
+  width: 151px;
+  transition: all 200ms ease-in-out;
+  background-color: #ffd201;
+  position: absolute;
+  position: absolute;
+  bottom: -34px;
+  left: -32px;
+  border-start-end-radius: 116px 106px;
+  border-start-start-radius: 22px 6px;
+}
+
+
+
+.rel{
+position:absolute;
+top: 150px;
+}
+/* Section PRICING PLANS END */
+
+/* Section number Start */
+.facts-area {
+  padding: 40px 0;
+  background: #ffd201;
+  color: black;
+  text-align: center;
+ 
+}
+
+.facts-area h1 {
+  font-size: 46px;
+  margin: 17px;
+}
+
+.facts-area h4 {
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font: 1em sans-serif;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  gap:51px;
+}
+
+.col-3 {
+  
+  border-left: 1px solid black;
+}
+/* Section number End */
+
+/* Section WHY CHOOSE US CSS Start */
+.services-area h1 {
+  color: #333;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 38px;
+  margin-bottom: 48px;
+}
+
+.services-area p {
+  color: #333;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  line-height: 1.5em;
+}
+
+.icon-box {
+  text-align: center;
+}
+
+.services-area h3 {
+  color: #333;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  gap:20px;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.mb-10 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.justify-content-center {
+  justify-content: center !important;
+}
+/* Section WHY CHOOSE US CSS End */
+.home-about-area{
+  padding: 0;
+  margin-top: 255px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px 0 111px 0;
+}
+/* Section ORDER TAXI CSS Start*/
+.hero-header h6 {
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 1.5em;
+  font-size: 14px;
+  color: #222222;
+  margin-bottom: 40px;
+  margin-top: 120px;
+}
+
+.primary-btn {
+  line-height: 42px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: none;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 14px;
+  position: relative;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  position: relative;
+}
+
+.img-taxi {
+  height: auto;
+  max-width: 100%;
+  vertical-align: top;
+  position: absolute;
+  bottom: 0px;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+  transform: translateZ(0);
+}
+.text div img{
+position: relative;
+}
+.home-about-area {
+  background-image: url(https://pearl.stylemixthemes.com/taxi/wp-content/uploads/sites/47/2019/11/yellow-bg.jpg?id=7249) !important;
+  
+}
+
+.home-about-area h6 {
+  color: #333;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 38px;
+  margin-bottom: 5px;
+}
+
+.home-about-area h2 {
+
+  color: #333;
+  font-weight: 700;
+  letter-spacing: 0px;
+  font-weight: 300;
+  line-height: 42px;
+  margin-bottom: 18px;
+  letter-spacing: 2px;
+  font-size: 36px;
+}
+
+.home-about-area p {
+  color: #333;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  line-height: 1.5em;}
+
+.col-6 {
+
+  position: relative;
+}
+.img-hand{
+  height: auto;
+  max-width: 100%;
+  vertical-align: top;
+  position: absolute;
+  bottom: -111px;
+}
+
+.text {
+  margin-right: 50px;
+  width: 600px;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  gap:20px;
+}
+
+.col-6 {
+  width: 50%;
+}
+/* Section ORDER TAXI CSS End*/
+
+/* Section partners Start */
+.brands-logo {
+  padding: 80px 0;
+  color: #fff;
+  text-align: center;
+  box-sizing: border-box;
+  width: auto;  
+}
+
+.brands-logo .col-3 {
+  opacity: .5;
+}
+
+.brands-logo .col-3:hover {
+  transform: scale(1); 
+  text-decoration: none;
+  background-color: transparent;
+  text-decoration: none;
+  opacity: 1;
+  transition: all .5s;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  gap:20px;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+.shadow:hover .yellow{
+  transform: scale(1.3);
+}
+.shadow:hover{
+  box-shadow: 0px 15px 30px 0px rgba(0,0,0,.15);
+}
+.fa-chart-pie{
+  margin-top: 15px;
+  font-size: 30px;
+}
+.fa-thumbs-up{
+  margin-top: 15px;
+  font-size: 30px;
+}
+.fa-comments{
+  margin-top: 15px;
+  font-size: 30px;
+}
+.WHY-CHOOSE-US-icon{
+  background-color: #ffd000;
+  border-radius: 50%;
+ 
+  margin: 0 auto;
+  width: 65px;
+  height: 58px;
+}
+/* Section partners End */
