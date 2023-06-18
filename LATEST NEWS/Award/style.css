@@ -19,13 +19,17 @@ body {
 
 /* bottom-header css code [start] */
 .bottom-header {
-  position: relative;
+  position: fixed;
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-wrap: wrap;
   gap: 155px;
   background-color: var(--White);
+  margin: 00px auto;
+  z-index: 111;
+  width: -webkit-fill-available;
+  padding-top: 30px;
 }
 /* header-links css code [start] */
 .header-links a {
@@ -220,6 +224,24 @@ body {
   float: right;
   margin-left: 40px;
   margin-top: 20px;
+  z-index: 11111;
+}
+.searchbox-yellow input:hover{
+  border: 1.4px solid rgb(255, 217, 0);
+  background-color: rgb(255, 255, 255);
+}
+.searchbox-yellow span:hover{
+  color: #222222;
+}
+.CATEGORIES p:hover{
+  color: #fff;
+background-color: rgb(255, 217, 0);
+}
+.download-btn:hover h6{
+  color:rgb(0, 0, 0) ;
+}
+.list-design-part:hover h6{
+  color: rgb(245, 208, 0) ;
 }
 /*container all css end*/
 /*top items css start*/
@@ -428,15 +450,18 @@ color: gray;
   width: 350px;
 }
 .Footer-bottom-item {
-  /* margin-left: 41px; */
+  
   opacity: 0.7;
 }
 .Footer-bottom-item ul li {
   color: rgb(248, 205, 11);
-  /* margin-left: -20px; */
+  
   padding: 3px 0;
 }
-
+.Footer-bottom-item a{
+  text-decoration: none;
+  color: var(--black);
+}
 .Footer-bottom-item a:hover {
   color: rgb(248, 205, 11);
 }
@@ -534,11 +559,7 @@ color: gray;
   text-decoration: none;
   color: var(--black);
 }
-/* :root {
-  --yellow: #ffd201;
-  --black: black;
-  --white: white;
-} */
+
 .main-left-award {
   margin: auto;
 }
@@ -554,9 +575,15 @@ color: gray;
   width: 800px;
   margin-top: 20px;
 }
+.fivepic-text{
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  align-items: flex-start;
+} 
 .fivepic-text,
 .web-designer {
-  width: 1500px;
   margin: auto;
   text-align: center;
   position: relative;
@@ -564,10 +591,11 @@ color: gray;
 .fivepic-text a,
 .web-designer a {
   margin-right: 100px;
-
-  font-size: 30px;
+text-decoration: none;
+  font-size: 28px;
   font-weight: bold;
   transition: 0.5s;
+  color: var(--black);
 }
 .fivepic-text a:hover,
 .web-designer a:hover {
@@ -575,13 +603,11 @@ color: gray;
   transition: 0.5s;
   text-decoration-color: var(--yellow);
 }
+
 .texts-aftertext,
 .text-webdesigner {
-  padding: 20px;
-  bottom: -4%;
-  position: absolute;
-  left: 23.39%;
-  width: 800px;
+  padding: 15px;
+  
   height: 60px;
   background-color: var(--yellow);
 }
@@ -611,4 +637,10 @@ color: gray;
   cursor: pointer;
   transition: 0.6s;
   border: 2px solid var(--yellow);
+}
+.main-container{
+  padding: 110px 134px 158px
+}
+.texts-aftertext p{
+  color: var(--White);
 }

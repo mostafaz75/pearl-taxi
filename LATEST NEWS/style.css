@@ -25,6 +25,7 @@ body {
   align-items: flex-start;
   flex-wrap: wrap;
   gap: 155px;
+  margin: 28px auto;
   background-color: var(--White);
 }
 /* header-links css code [start] */
@@ -553,7 +554,7 @@ body {
 }
 
 .container {
-  width: 782px;
+  width: 756px;
   margin: 0 auto;
 }
 
